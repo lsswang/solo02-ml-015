@@ -1,0 +1,746 @@
+{
+  "root": "chance",
+  "nodes": {
+    "chance": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 30,
+          "probability": 0.1,
+          "child": "w0_row"
+        },
+        {
+          "action": 31,
+          "probability": 0.2,
+          "child": "w1_row"
+        },
+        {
+          "action": 32,
+          "probability": 0.3,
+          "child": "w2_row"
+        },
+        {
+          "action": 33,
+          "probability": 0.4,
+          "child": "w3_row"
+        }
+      ]
+    },
+    "w0_row": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w0_r0_col"
+        },
+        {
+          "action": 7,
+          "child": "w0_r1_col"
+        },
+        {
+          "action": 11,
+          "child": "w0_r2_col"
+        },
+        {
+          "action": 19,
+          "child": "w0_r3_col"
+        }
+      ]
+    },
+    "w0_r0_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w0_r0_c0"
+        },
+        {
+          "action": 7,
+          "child": "w0_r0_c1"
+        },
+        {
+          "action": 11,
+          "child": "w0_r0_c2"
+        },
+        {
+          "action": 19,
+          "child": "w0_r0_c3"
+        }
+      ]
+    },
+    "w0_r0_c0": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "w0_r0_c1": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w0_r0_c2": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w0_r0_c3": {
+      "kind": "terminal",
+      "payoff": 2.0
+    },
+    "w0_r1_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w0_r1_c0"
+        },
+        {
+          "action": 7,
+          "child": "w0_r1_c1"
+        },
+        {
+          "action": 11,
+          "child": "w0_r1_c2"
+        },
+        {
+          "action": 19,
+          "child": "w0_r1_c3"
+        }
+      ]
+    },
+    "w0_r1_c0": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w0_r1_c1": {
+      "kind": "terminal",
+      "payoff": 3.0
+    },
+    "w0_r1_c2": {
+      "kind": "terminal",
+      "payoff": -2.0
+    },
+    "w0_r1_c3": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w0_r2_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w0_r2_c0"
+        },
+        {
+          "action": 7,
+          "child": "w0_r2_c1"
+        },
+        {
+          "action": 11,
+          "child": "w0_r2_c2"
+        },
+        {
+          "action": 19,
+          "child": "w0_r2_c3"
+        }
+      ]
+    },
+    "w0_r2_c0": {
+      "kind": "terminal",
+      "payoff": 3.0
+    },
+    "w0_r2_c1": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "w0_r2_c2": {
+      "kind": "terminal",
+      "payoff": 2.0
+    },
+    "w0_r2_c3": {
+      "kind": "terminal",
+      "payoff": -2.0
+    },
+    "w0_r3_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w0_r3_c0"
+        },
+        {
+          "action": 7,
+          "child": "w0_r3_c1"
+        },
+        {
+          "action": 11,
+          "child": "w0_r3_c2"
+        },
+        {
+          "action": 19,
+          "child": "w0_r3_c3"
+        }
+      ]
+    },
+    "w0_r3_c0": {
+      "kind": "terminal",
+      "payoff": -2.0
+    },
+    "w0_r3_c1": {
+      "kind": "terminal",
+      "payoff": 2.0
+    },
+    "w0_r3_c2": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "w0_r3_c3": {
+      "kind": "terminal",
+      "payoff": 3.0
+    },
+    "w1_row": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w1_r0_col"
+        },
+        {
+          "action": 7,
+          "child": "w1_r1_col"
+        },
+        {
+          "action": 11,
+          "child": "w1_r2_col"
+        },
+        {
+          "action": 19,
+          "child": "w1_r3_col"
+        }
+      ]
+    },
+    "w1_r0_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w1_r0_c0"
+        },
+        {
+          "action": 7,
+          "child": "w1_r0_c1"
+        },
+        {
+          "action": 11,
+          "child": "w1_r0_c2"
+        },
+        {
+          "action": 19,
+          "child": "w1_r0_c3"
+        }
+      ]
+    },
+    "w1_r0_c0": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w1_r0_c1": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w1_r0_c2": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w1_r0_c3": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w1_r1_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w1_r1_c0"
+        },
+        {
+          "action": 7,
+          "child": "w1_r1_c1"
+        },
+        {
+          "action": 11,
+          "child": "w1_r1_c2"
+        },
+        {
+          "action": 19,
+          "child": "w1_r1_c3"
+        }
+      ]
+    },
+    "w1_r1_c0": {
+      "kind": "terminal",
+      "payoff": -3.0
+    },
+    "w1_r1_c1": {
+      "kind": "terminal",
+      "payoff": -2.0
+    },
+    "w1_r1_c2": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "w1_r1_c3": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w1_r2_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w1_r2_c0"
+        },
+        {
+          "action": 7,
+          "child": "w1_r2_c1"
+        },
+        {
+          "action": 11,
+          "child": "w1_r2_c2"
+        },
+        {
+          "action": 19,
+          "child": "w1_r2_c3"
+        }
+      ]
+    },
+    "w1_r2_c0": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w1_r2_c1": {
+      "kind": "terminal",
+      "payoff": 2.0
+    },
+    "w1_r2_c2": {
+      "kind": "terminal",
+      "payoff": -3.0
+    },
+    "w1_r2_c3": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "w1_r3_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w1_r3_c0"
+        },
+        {
+          "action": 7,
+          "child": "w1_r3_c1"
+        },
+        {
+          "action": 11,
+          "child": "w1_r3_c2"
+        },
+        {
+          "action": 19,
+          "child": "w1_r3_c3"
+        }
+      ]
+    },
+    "w1_r3_c0": {
+      "kind": "terminal",
+      "payoff": 3.0
+    },
+    "w1_r3_c1": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "w1_r3_c2": {
+      "kind": "terminal",
+      "payoff": 2.0
+    },
+    "w1_r3_c3": {
+      "kind": "terminal",
+      "payoff": -2.0
+    },
+    "w2_row": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w2_r0_col"
+        },
+        {
+          "action": 7,
+          "child": "w2_r1_col"
+        },
+        {
+          "action": 11,
+          "child": "w2_r2_col"
+        },
+        {
+          "action": 19,
+          "child": "w2_r3_col"
+        }
+      ]
+    },
+    "w2_r0_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w2_r0_c0"
+        },
+        {
+          "action": 7,
+          "child": "w2_r0_c1"
+        },
+        {
+          "action": 11,
+          "child": "w2_r0_c2"
+        },
+        {
+          "action": 19,
+          "child": "w2_r0_c3"
+        }
+      ]
+    },
+    "w2_r0_c0": {
+      "kind": "terminal",
+      "payoff": 3.0
+    },
+    "w2_r0_c1": {
+      "kind": "terminal",
+      "payoff": 2.0
+    },
+    "w2_r0_c2": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w2_r0_c3": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w2_r1_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w2_r1_c0"
+        },
+        {
+          "action": 7,
+          "child": "w2_r1_c1"
+        },
+        {
+          "action": 11,
+          "child": "w2_r1_c2"
+        },
+        {
+          "action": 19,
+          "child": "w2_r1_c3"
+        }
+      ]
+    },
+    "w2_r1_c0": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w2_r1_c1": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w2_r1_c2": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w2_r1_c3": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w2_r2_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w2_r2_c0"
+        },
+        {
+          "action": 7,
+          "child": "w2_r2_c1"
+        },
+        {
+          "action": 11,
+          "child": "w2_r2_c2"
+        },
+        {
+          "action": 19,
+          "child": "w2_r2_c3"
+        }
+      ]
+    },
+    "w2_r2_c0": {
+      "kind": "terminal",
+      "payoff": -3.0
+    },
+    "w2_r2_c1": {
+      "kind": "terminal",
+      "payoff": -2.0
+    },
+    "w2_r2_c2": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "w2_r2_c3": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w2_r3_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w2_r3_c0"
+        },
+        {
+          "action": 7,
+          "child": "w2_r3_c1"
+        },
+        {
+          "action": 11,
+          "child": "w2_r3_c2"
+        },
+        {
+          "action": 19,
+          "child": "w2_r3_c3"
+        }
+      ]
+    },
+    "w2_r3_c0": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w2_r3_c1": {
+      "kind": "terminal",
+      "payoff": 3.0
+    },
+    "w2_r3_c2": {
+      "kind": "terminal",
+      "payoff": -2.0
+    },
+    "w2_r3_c3": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w3_row": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w3_r0_col"
+        },
+        {
+          "action": 7,
+          "child": "w3_r1_col"
+        },
+        {
+          "action": 11,
+          "child": "w3_r2_col"
+        },
+        {
+          "action": 19,
+          "child": "w3_r3_col"
+        }
+      ]
+    },
+    "w3_r0_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w3_r0_c0"
+        },
+        {
+          "action": 7,
+          "child": "w3_r0_c1"
+        },
+        {
+          "action": 11,
+          "child": "w3_r0_c2"
+        },
+        {
+          "action": 19,
+          "child": "w3_r0_c3"
+        }
+      ]
+    },
+    "w3_r0_c0": {
+      "kind": "terminal",
+      "payoff": -2.0
+    },
+    "w3_r0_c1": {
+      "kind": "terminal",
+      "payoff": 3.0
+    },
+    "w3_r0_c2": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w3_r0_c3": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "w3_r1_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w3_r1_c0"
+        },
+        {
+          "action": 7,
+          "child": "w3_r1_c1"
+        },
+        {
+          "action": 11,
+          "child": "w3_r1_c2"
+        },
+        {
+          "action": 19,
+          "child": "w3_r1_c3"
+        }
+      ]
+    },
+    "w3_r1_c0": {
+      "kind": "terminal",
+      "payoff": 3.0
+    },
+    "w3_r1_c1": {
+      "kind": "terminal",
+      "payoff": 2.0
+    },
+    "w3_r1_c2": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w3_r1_c3": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w3_r2_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w3_r2_c0"
+        },
+        {
+          "action": 7,
+          "child": "w3_r2_c1"
+        },
+        {
+          "action": 11,
+          "child": "w3_r2_c2"
+        },
+        {
+          "action": 19,
+          "child": "w3_r2_c3"
+        }
+      ]
+    },
+    "w3_r2_c0": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w3_r2_c1": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w3_r2_c2": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w3_r2_c3": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w3_r3_col": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "shared_name",
+      "actions": [
+        {
+          "action": 3,
+          "child": "w3_r3_c0"
+        },
+        {
+          "action": 7,
+          "child": "w3_r3_c1"
+        },
+        {
+          "action": 11,
+          "child": "w3_r3_c2"
+        },
+        {
+          "action": 19,
+          "child": "w3_r3_c3"
+        }
+      ]
+    },
+    "w3_r3_c0": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "w3_r3_c1": {
+      "kind": "terminal",
+      "payoff": 0.0
+    },
+    "w3_r3_c2": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "w3_r3_c3": {
+      "kind": "terminal",
+      "payoff": 2.0
+    }
+  }
+}

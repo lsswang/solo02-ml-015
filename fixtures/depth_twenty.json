@@ -1,0 +1,408 @@
+{
+  "root": "decide17",
+  "nodes": {
+    "deep_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "deep_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "deep_c0"
+        },
+        {
+          "action": 1,
+          "child": "deep_c1"
+        }
+      ]
+    },
+    "deep_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "deep_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "deep_t00"
+        },
+        {
+          "action": 1,
+          "child": "deep_t01"
+        }
+      ]
+    },
+    "deep_t00": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "deep_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "deep_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "deep_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "deep_t10"
+        },
+        {
+          "action": 1,
+          "child": "deep_t11"
+        }
+      ]
+    },
+    "deep_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "deep_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "outside0": {
+      "kind": "terminal",
+      "payoff": -0.1
+    },
+    "decide0": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "deep_root"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside0"
+        }
+      ]
+    },
+    "outside1": {
+      "kind": "terminal",
+      "payoff": 0.1
+    },
+    "decide1": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide0"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside1"
+        }
+      ]
+    },
+    "outside2": {
+      "kind": "terminal",
+      "payoff": -0.1
+    },
+    "decide2": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide1"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside2"
+        }
+      ]
+    },
+    "outside3": {
+      "kind": "terminal",
+      "payoff": 0.1
+    },
+    "decide3": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide2"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside3"
+        }
+      ]
+    },
+    "outside4": {
+      "kind": "terminal",
+      "payoff": -0.1
+    },
+    "decide4": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide3"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside4"
+        }
+      ]
+    },
+    "outside5": {
+      "kind": "terminal",
+      "payoff": 0.1
+    },
+    "decide5": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide4"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside5"
+        }
+      ]
+    },
+    "outside6": {
+      "kind": "terminal",
+      "payoff": -0.1
+    },
+    "decide6": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide5"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside6"
+        }
+      ]
+    },
+    "outside7": {
+      "kind": "terminal",
+      "payoff": 0.1
+    },
+    "decide7": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide6"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside7"
+        }
+      ]
+    },
+    "outside8": {
+      "kind": "terminal",
+      "payoff": -0.1
+    },
+    "decide8": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide7"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside8"
+        }
+      ]
+    },
+    "outside9": {
+      "kind": "terminal",
+      "payoff": 0.1
+    },
+    "decide9": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide8"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside9"
+        }
+      ]
+    },
+    "outside10": {
+      "kind": "terminal",
+      "payoff": -0.1
+    },
+    "decide10": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide9"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside10"
+        }
+      ]
+    },
+    "outside11": {
+      "kind": "terminal",
+      "payoff": 0.1
+    },
+    "decide11": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide10"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside11"
+        }
+      ]
+    },
+    "outside12": {
+      "kind": "terminal",
+      "payoff": -0.1
+    },
+    "decide12": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide11"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside12"
+        }
+      ]
+    },
+    "outside13": {
+      "kind": "terminal",
+      "payoff": 0.1
+    },
+    "decide13": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide12"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside13"
+        }
+      ]
+    },
+    "outside14": {
+      "kind": "terminal",
+      "payoff": -0.1
+    },
+    "decide14": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide13"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside14"
+        }
+      ]
+    },
+    "outside15": {
+      "kind": "terminal",
+      "payoff": 0.1
+    },
+    "decide15": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide14"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside15"
+        }
+      ]
+    },
+    "outside16": {
+      "kind": "terminal",
+      "payoff": -0.1
+    },
+    "decide16": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide15"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside16"
+        }
+      ]
+    },
+    "outside17": {
+      "kind": "terminal",
+      "payoff": 0.1
+    },
+    "decide17": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 2,
+          "probability": 0.99,
+          "child": "decide16"
+        },
+        {
+          "action": 5,
+          "probability": 0.01,
+          "child": "outside17"
+        }
+      ]
+    }
+  }
+}

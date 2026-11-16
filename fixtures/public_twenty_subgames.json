@@ -1,0 +1,1510 @@
+{
+  "root": "chance0",
+  "nodes": {
+    "g0_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g0_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g0_c0"
+        },
+        {
+          "action": 1,
+          "child": "g0_c1"
+        }
+      ]
+    },
+    "g0_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g0_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g0_t00"
+        },
+        {
+          "action": 1,
+          "child": "g0_t01"
+        }
+      ]
+    },
+    "g0_t00": {
+      "kind": "terminal",
+      "payoff": 1.0
+    },
+    "g0_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g0_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g0_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g0_t10"
+        },
+        {
+          "action": 1,
+          "child": "g0_t11"
+        }
+      ]
+    },
+    "g0_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g0_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g1_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g1_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g1_c0"
+        },
+        {
+          "action": 1,
+          "child": "g1_c1"
+        }
+      ]
+    },
+    "g1_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g1_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g1_t00"
+        },
+        {
+          "action": 1,
+          "child": "g1_t01"
+        }
+      ]
+    },
+    "g1_t00": {
+      "kind": "terminal",
+      "payoff": 1.05
+    },
+    "g1_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g1_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g1_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g1_t10"
+        },
+        {
+          "action": 1,
+          "child": "g1_t11"
+        }
+      ]
+    },
+    "g1_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g1_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g2_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g2_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g2_c0"
+        },
+        {
+          "action": 1,
+          "child": "g2_c1"
+        }
+      ]
+    },
+    "g2_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g2_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g2_t00"
+        },
+        {
+          "action": 1,
+          "child": "g2_t01"
+        }
+      ]
+    },
+    "g2_t00": {
+      "kind": "terminal",
+      "payoff": 1.1
+    },
+    "g2_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g2_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g2_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g2_t10"
+        },
+        {
+          "action": 1,
+          "child": "g2_t11"
+        }
+      ]
+    },
+    "g2_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g2_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g3_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g3_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g3_c0"
+        },
+        {
+          "action": 1,
+          "child": "g3_c1"
+        }
+      ]
+    },
+    "g3_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g3_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g3_t00"
+        },
+        {
+          "action": 1,
+          "child": "g3_t01"
+        }
+      ]
+    },
+    "g3_t00": {
+      "kind": "terminal",
+      "payoff": 1.15
+    },
+    "g3_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g3_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g3_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g3_t10"
+        },
+        {
+          "action": 1,
+          "child": "g3_t11"
+        }
+      ]
+    },
+    "g3_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g3_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g4_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g4_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g4_c0"
+        },
+        {
+          "action": 1,
+          "child": "g4_c1"
+        }
+      ]
+    },
+    "g4_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g4_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g4_t00"
+        },
+        {
+          "action": 1,
+          "child": "g4_t01"
+        }
+      ]
+    },
+    "g4_t00": {
+      "kind": "terminal",
+      "payoff": 1.2
+    },
+    "g4_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g4_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g4_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g4_t10"
+        },
+        {
+          "action": 1,
+          "child": "g4_t11"
+        }
+      ]
+    },
+    "g4_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g4_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g5_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g5_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g5_c0"
+        },
+        {
+          "action": 1,
+          "child": "g5_c1"
+        }
+      ]
+    },
+    "g5_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g5_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g5_t00"
+        },
+        {
+          "action": 1,
+          "child": "g5_t01"
+        }
+      ]
+    },
+    "g5_t00": {
+      "kind": "terminal",
+      "payoff": 1.25
+    },
+    "g5_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g5_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g5_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g5_t10"
+        },
+        {
+          "action": 1,
+          "child": "g5_t11"
+        }
+      ]
+    },
+    "g5_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g5_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g6_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g6_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g6_c0"
+        },
+        {
+          "action": 1,
+          "child": "g6_c1"
+        }
+      ]
+    },
+    "g6_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g6_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g6_t00"
+        },
+        {
+          "action": 1,
+          "child": "g6_t01"
+        }
+      ]
+    },
+    "g6_t00": {
+      "kind": "terminal",
+      "payoff": 1.3
+    },
+    "g6_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g6_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g6_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g6_t10"
+        },
+        {
+          "action": 1,
+          "child": "g6_t11"
+        }
+      ]
+    },
+    "g6_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g6_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g7_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g7_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g7_c0"
+        },
+        {
+          "action": 1,
+          "child": "g7_c1"
+        }
+      ]
+    },
+    "g7_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g7_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g7_t00"
+        },
+        {
+          "action": 1,
+          "child": "g7_t01"
+        }
+      ]
+    },
+    "g7_t00": {
+      "kind": "terminal",
+      "payoff": 1.35
+    },
+    "g7_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g7_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g7_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g7_t10"
+        },
+        {
+          "action": 1,
+          "child": "g7_t11"
+        }
+      ]
+    },
+    "g7_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g7_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g8_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g8_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g8_c0"
+        },
+        {
+          "action": 1,
+          "child": "g8_c1"
+        }
+      ]
+    },
+    "g8_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g8_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g8_t00"
+        },
+        {
+          "action": 1,
+          "child": "g8_t01"
+        }
+      ]
+    },
+    "g8_t00": {
+      "kind": "terminal",
+      "payoff": 1.4
+    },
+    "g8_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g8_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g8_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g8_t10"
+        },
+        {
+          "action": 1,
+          "child": "g8_t11"
+        }
+      ]
+    },
+    "g8_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g8_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g9_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g9_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g9_c0"
+        },
+        {
+          "action": 1,
+          "child": "g9_c1"
+        }
+      ]
+    },
+    "g9_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g9_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g9_t00"
+        },
+        {
+          "action": 1,
+          "child": "g9_t01"
+        }
+      ]
+    },
+    "g9_t00": {
+      "kind": "terminal",
+      "payoff": 1.45
+    },
+    "g9_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g9_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g9_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g9_t10"
+        },
+        {
+          "action": 1,
+          "child": "g9_t11"
+        }
+      ]
+    },
+    "g9_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g9_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g10_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g10_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g10_c0"
+        },
+        {
+          "action": 1,
+          "child": "g10_c1"
+        }
+      ]
+    },
+    "g10_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g10_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g10_t00"
+        },
+        {
+          "action": 1,
+          "child": "g10_t01"
+        }
+      ]
+    },
+    "g10_t00": {
+      "kind": "terminal",
+      "payoff": 1.5
+    },
+    "g10_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g10_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g10_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g10_t10"
+        },
+        {
+          "action": 1,
+          "child": "g10_t11"
+        }
+      ]
+    },
+    "g10_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g10_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g11_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g11_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g11_c0"
+        },
+        {
+          "action": 1,
+          "child": "g11_c1"
+        }
+      ]
+    },
+    "g11_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g11_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g11_t00"
+        },
+        {
+          "action": 1,
+          "child": "g11_t01"
+        }
+      ]
+    },
+    "g11_t00": {
+      "kind": "terminal",
+      "payoff": 1.55
+    },
+    "g11_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g11_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g11_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g11_t10"
+        },
+        {
+          "action": 1,
+          "child": "g11_t11"
+        }
+      ]
+    },
+    "g11_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g11_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g12_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g12_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g12_c0"
+        },
+        {
+          "action": 1,
+          "child": "g12_c1"
+        }
+      ]
+    },
+    "g12_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g12_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g12_t00"
+        },
+        {
+          "action": 1,
+          "child": "g12_t01"
+        }
+      ]
+    },
+    "g12_t00": {
+      "kind": "terminal",
+      "payoff": 1.6
+    },
+    "g12_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g12_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g12_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g12_t10"
+        },
+        {
+          "action": 1,
+          "child": "g12_t11"
+        }
+      ]
+    },
+    "g12_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g12_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g13_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g13_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g13_c0"
+        },
+        {
+          "action": 1,
+          "child": "g13_c1"
+        }
+      ]
+    },
+    "g13_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g13_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g13_t00"
+        },
+        {
+          "action": 1,
+          "child": "g13_t01"
+        }
+      ]
+    },
+    "g13_t00": {
+      "kind": "terminal",
+      "payoff": 1.65
+    },
+    "g13_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g13_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g13_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g13_t10"
+        },
+        {
+          "action": 1,
+          "child": "g13_t11"
+        }
+      ]
+    },
+    "g13_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g13_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g14_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g14_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g14_c0"
+        },
+        {
+          "action": 1,
+          "child": "g14_c1"
+        }
+      ]
+    },
+    "g14_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g14_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g14_t00"
+        },
+        {
+          "action": 1,
+          "child": "g14_t01"
+        }
+      ]
+    },
+    "g14_t00": {
+      "kind": "terminal",
+      "payoff": 1.7
+    },
+    "g14_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g14_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g14_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g14_t10"
+        },
+        {
+          "action": 1,
+          "child": "g14_t11"
+        }
+      ]
+    },
+    "g14_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g14_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g15_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g15_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g15_c0"
+        },
+        {
+          "action": 1,
+          "child": "g15_c1"
+        }
+      ]
+    },
+    "g15_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g15_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g15_t00"
+        },
+        {
+          "action": 1,
+          "child": "g15_t01"
+        }
+      ]
+    },
+    "g15_t00": {
+      "kind": "terminal",
+      "payoff": 1.75
+    },
+    "g15_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g15_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g15_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g15_t10"
+        },
+        {
+          "action": 1,
+          "child": "g15_t11"
+        }
+      ]
+    },
+    "g15_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g15_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g16_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g16_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g16_c0"
+        },
+        {
+          "action": 1,
+          "child": "g16_c1"
+        }
+      ]
+    },
+    "g16_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g16_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g16_t00"
+        },
+        {
+          "action": 1,
+          "child": "g16_t01"
+        }
+      ]
+    },
+    "g16_t00": {
+      "kind": "terminal",
+      "payoff": 1.8
+    },
+    "g16_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g16_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g16_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g16_t10"
+        },
+        {
+          "action": 1,
+          "child": "g16_t11"
+        }
+      ]
+    },
+    "g16_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g16_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g17_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g17_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g17_c0"
+        },
+        {
+          "action": 1,
+          "child": "g17_c1"
+        }
+      ]
+    },
+    "g17_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g17_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g17_t00"
+        },
+        {
+          "action": 1,
+          "child": "g17_t01"
+        }
+      ]
+    },
+    "g17_t00": {
+      "kind": "terminal",
+      "payoff": 1.85
+    },
+    "g17_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g17_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g17_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g17_t10"
+        },
+        {
+          "action": 1,
+          "child": "g17_t11"
+        }
+      ]
+    },
+    "g17_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g17_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g18_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g18_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g18_c0"
+        },
+        {
+          "action": 1,
+          "child": "g18_c1"
+        }
+      ]
+    },
+    "g18_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g18_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g18_t00"
+        },
+        {
+          "action": 1,
+          "child": "g18_t01"
+        }
+      ]
+    },
+    "g18_t00": {
+      "kind": "terminal",
+      "payoff": 1.9
+    },
+    "g18_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g18_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g18_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g18_t10"
+        },
+        {
+          "action": 1,
+          "child": "g18_t11"
+        }
+      ]
+    },
+    "g18_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g18_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "g19_root": {
+      "kind": "player",
+      "player": 0,
+      "infoset": "g19_row",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g19_c0"
+        },
+        {
+          "action": 1,
+          "child": "g19_c1"
+        }
+      ]
+    },
+    "g19_c0": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g19_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g19_t00"
+        },
+        {
+          "action": 1,
+          "child": "g19_t01"
+        }
+      ]
+    },
+    "g19_t00": {
+      "kind": "terminal",
+      "payoff": 1.95
+    },
+    "g19_t01": {
+      "kind": "terminal",
+      "payoff": -1.0
+    },
+    "g19_c1": {
+      "kind": "player",
+      "player": 1,
+      "infoset": "g19_col",
+      "actions": [
+        {
+          "action": 0,
+          "child": "g19_t10"
+        },
+        {
+          "action": 1,
+          "child": "g19_t11"
+        }
+      ]
+    },
+    "g19_t10": {
+      "kind": "terminal",
+      "payoff": -0.5
+    },
+    "g19_t11": {
+      "kind": "terminal",
+      "payoff": 0.8
+    },
+    "chance3": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "g0_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "g1_root"
+        }
+      ]
+    },
+    "chance5": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "g3_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "g4_root"
+        }
+      ]
+    },
+    "chance4": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.3333333333333333,
+          "child": "g2_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.6666666666666666,
+          "child": "chance5"
+        }
+      ]
+    },
+    "chance2": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.4,
+          "child": "chance3"
+        },
+        {
+          "action": 1,
+          "probability": 0.6,
+          "child": "chance4"
+        }
+      ]
+    },
+    "chance7": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "g5_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "g6_root"
+        }
+      ]
+    },
+    "chance9": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "g8_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "g9_root"
+        }
+      ]
+    },
+    "chance8": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.3333333333333333,
+          "child": "g7_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.6666666666666666,
+          "child": "chance9"
+        }
+      ]
+    },
+    "chance6": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.4,
+          "child": "chance7"
+        },
+        {
+          "action": 1,
+          "probability": 0.6,
+          "child": "chance8"
+        }
+      ]
+    },
+    "chance1": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "chance2"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "chance6"
+        }
+      ]
+    },
+    "chance12": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "g10_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "g11_root"
+        }
+      ]
+    },
+    "chance14": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "g13_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "g14_root"
+        }
+      ]
+    },
+    "chance13": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.3333333333333333,
+          "child": "g12_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.6666666666666666,
+          "child": "chance14"
+        }
+      ]
+    },
+    "chance11": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.4,
+          "child": "chance12"
+        },
+        {
+          "action": 1,
+          "probability": 0.6,
+          "child": "chance13"
+        }
+      ]
+    },
+    "chance16": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "g15_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "g16_root"
+        }
+      ]
+    },
+    "chance18": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "g18_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "g19_root"
+        }
+      ]
+    },
+    "chance17": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.3333333333333333,
+          "child": "g17_root"
+        },
+        {
+          "action": 1,
+          "probability": 0.6666666666666666,
+          "child": "chance18"
+        }
+      ]
+    },
+    "chance15": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.4,
+          "child": "chance16"
+        },
+        {
+          "action": 1,
+          "probability": 0.6,
+          "child": "chance17"
+        }
+      ]
+    },
+    "chance10": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "chance11"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "chance15"
+        }
+      ]
+    },
+    "chance0": {
+      "kind": "chance",
+      "actions": [
+        {
+          "action": 0,
+          "probability": 0.5,
+          "child": "chance1"
+        },
+        {
+          "action": 1,
+          "probability": 0.5,
+          "child": "chance10"
+        }
+      ]
+    }
+  }
+}

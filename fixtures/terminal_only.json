@@ -1,0 +1,9 @@
+{
+  "root": "done",
+  "nodes": {
+    "done": {
+      "kind": "terminal",
+      "payoff": 2.5
+    }
+  }
+}

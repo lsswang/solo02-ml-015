@@ -1,0 +1,5 @@
+open-spiel==2.0.2
+cvxpy==1.7.4
+ecos==2.0.14
+numpy==2.4.6
+scipy==1.17.1
